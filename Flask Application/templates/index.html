@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWC 2023 Data Analysis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0c011b;
+            font-family: 'Poppins', Arial, sans-serif;
+        }
+        .header {
+            background-color: #270d49;
+            color: rgb(255, 225, 0);
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        .content-section {
+            padding: 2rem;
+            color: white;
+            font-family: 'Poppins', Arial, Helvetica, sans-serif;
+            text-align: left;
+        }
+        iframe {
+            border: none;
+            border-radius: 2px;
+        }
+        h2 {
+            font-weight: 500;
+            color: rgb(255, 225, 0);
+            margin-top: 0;
+            margin-bottom: 30px;
+            font-family: 'Poppins', Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1><b>CWC 2023 Data Analysis</b></h1>
+        <p>🏏Explore the statistics and insights from the Cricket World Cup 2023🏏</p>
+    </header>
+
+    <main class="content-section">
+        <div class="container">
+            <div class="row mb-5 text-center">
+                <div class="col-md-4">
+                    <img src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/371700/371767.jpg" 
+                         alt="CWC 2023 Image 1" 
+                         class="img-fluid rounded" 
+                         width="100%" 
+                         height="auto">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://statico.sportskeeda.com/editor/2023/10/ac40f-16967759313155-1920.jpg?w=640" 
+                         alt="CWC 2023 Image 2" 
+                         class="img-fluid rounded" 
+                         width="100%" 
+                         height="auto">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://about.fb.com/wp-content/uploads/2023/10/ICC-World-Cup-2023-4th-October-20239519A.jpg" 
+                         alt="CWC 2023 Image 3" 
+                         class="img-fluid rounded" 
+                         width=700 
+                         height=700>
+                </div>
+            </div>
+
+            <div class="row mb-5 justify-content-center text-align: justify-content-center" data-aos="fade-up">
+                <div class="col-md-12">
+                    <h2>Men's ODI Cricket World Cup </h2>
+                    <p>
+                        <b>
+                        The 2023 ICC Men's Cricket World Cup </b>the 13th edition of the ICC Men's Cricket World Cup, a quadrennial One Day International (ODI) cricket tournament 
+                        organized by the International Cricket Council (ICC). It was hosted from 5 October to 19 November 2023 across ten venues in India. 
+                        This was the fourth World Cup held in India, but the first where India was the sole host.
+                    </p>    
+
+                    <p> 
+                        The tournament was contested by ten national teams, maintaining the same format used in 2019. 
+                        After six weeks of round-robin matches, India, South Africa, Australia, and New Zealand finished as the top four and qualified for the knockout stage. 
+                        In the knockout stage, 
+                        <b>India and Australia beat New Zealand and South Africa </b>, respectively, 
+                        to advance to the finalon 19 November at the Narendra Modi Stadium in Ahmedabad. 
+                        Australia won the final by six wickets, winning their sixth Cricket World Cup title.
+                    </p>
+
+                    <p>
+                        <b>Virat Kohli</b> was named the player of the tournament and also scored the most runs, 
+                        while Mohammed Shami was the leading wicket-taker. A total of 1,250,307 spectators attended the matches, 
+                        the highest number in any Cricket World Cup to date.[1] The tournament final set viewership records in India, 
+                        drawing 518 million viewers, with a peak of 57 million streaming viewers
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-5 justify-content-center text-align: justify-content-center" data-aos="fade-up">
+                <div class="col-md-12">
+                    <h2>Format </h2>
+                    <p>
+                        This was the first ICC World Cup in which penalties for slow over-rates were given to bowling sides 
+                        if they did not complete their 50 overs in the stipulated time. 
+                        On-field umpires could penalise the bowling team by not allowing more than four fielders outside the 30-yard circle.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-5 justify-content-center text-align: justify-content-center" data-aos="fade-up">
+                <div class="col-md-12">
+                    <h2>Prize Money </h2>
+                    <p>
+                        The ICC allocated a pool of US$10 million in prize money for the tournament, 
+                        with payouts remaining the same as the 2019 and 2015 tournaments. Australia, the winning team, received US$4,000,000, 
+                        the runner-up $2,000,000 and the losing semi-finalists $1,600,000. 
+                        Teams that did not progress past the league stage received $100,000 and the winner of each league stage match received $40,000.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="row mb-5 justify-content-center text-align: justify-content-center" data-aos="fade-up">
+                <div class="col-md-12">
+                    <h2>Data Visualisation of CWC 2023 </h2>
+                </div>
+            </div>
+                
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Average Run Rate of Teams</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Average Run Rate of Each Team.html" width="100%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="fade-up">
+                    <p>
+                        In the 2023 Cricket World Cup, <b>the average run rate of teams </b> new heights, reflecting the aggressive batting approach and evolving dynamics of ODI cricket. 
+                        The tournament witnessed several high-scoring encounters, with teams consistently maintaining run rates above 5.5 to 6.5 runs per over. 
+                        England, India, and South Africa were among the teams that displayed an attacking brand of cricket, often surpassing 7 runs per over in favorable conditions.
+                    </p>
+
+                    <p>
+                        The 2023 World Cup reaffirmed the importance of a strong run rate, with dominant teams leveraging it to secure crucial wins and advance in the tournament.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Extras Contribution of Teams</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Extras Contribution From Both Teams.html" width="100%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="fade-up">
+                    <p>
+                        In the 2023 Cricket World Cup, extras played a significant role in boosting team totals, often providing crucial additional runs in tight matches. 
+                        Extras include wides, no-balls, byes, and leg-byes, which contribute to a team's score without requiring batters to play a shot.
+                    </p>
+
+                    <p>
+                        Ultimately, managing extras was a key factor in a team's overall discipline and success in the 2023 World Cup, 
+                        with teams maintaining tighter control over their bowling generally performing better in the tournament.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Teams Win While Batting First</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Teams Win while Batting First.html" width="85%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="fade-up">
+                    <p>
+                        In the 2023 Cricket World Cup, teams <b>Batting first</b> had a significant advantage in many matches, 
+                        often securing wins by posting high totals and putting pressure on the chasing sides. 
+                        The tournament saw several instances where teams successfully defended their scores, thanks to favorable pitch conditions, scoreboard pressure, and strong bowling performances.
+                    </p>
+
+                    <p>
+                        Overall, the 2023 World Cup reinforced the effectiveness of batting first, especially when teams capitalized on good batting conditions and executed their bowling plans efficiently.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Teams Win While Fielding First</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Teams Win while Fielding First.html" width="85%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="fade-up">
+                    <p>
+                        In the 2023 Cricket World Cup, several teams found success while <b>Fielding first</b>, leveraging early bowling pressure, favorable pitch conditions, and effective run chases. Teams like Australia, India, and Pakistan performed well when bowling first, often restricting opponents to manageable totals and chasing with confidence.
+                    </p>
+
+                    <p>
+                        As a result, while setting a target remained a dominant strategy, chasing teams also had their share of success in the 2023 World Cup, proving the importance of adaptability in different match situations.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Total Wins By Each Team</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Total Wins By Each Team.html" width="100%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="fade-up">
+                    <p>
+                        India topped the group stage with an unbeaten record, while South Africa and Australia also secured semi-final spots due to their superior performances. New Zealand clinched the final semi-final berth with 10 points. The remaining teams were eliminated after the group stage.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Cities With Good Score</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Cities where team batted first and scored-290.html" width="75%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="fade-up">
+                    <p>
+                        In the 2023 Cricket World Cup, several cities in India witnessed high-scoring first-innings performances due to batting-friendly conditions. Delhi’s Arun Jaitley Stadium saw South Africa set a World Cup record with 428/5 against Sri Lanka. Mumbai’s Wankhede Stadium hosted India’s dominant 397/4 against Sri Lanka, while Hyderabad’s Rajiv Gandhi International Stadium produced a run-fest with Pakistan successfully chasing 345/4 against Sri Lanka.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Overall Toss Decision</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Overall Toss Decision.html" width="75%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="fade-up">
+                    <p>
+                        In the 2023 Cricket World Cup, <b>Toss decisions</b> played a crucial role in match outcomes, with teams often choosing to bat first on high-scoring pitches or opting to field under favorable chasing conditions. Many captains preferred batting first on dry and flat surfaces, aiming to post big totals and put pressure on the chasing team. This strategy worked well in venues like Delhi, Mumbai, and Bengaluru, where teams batting first recorded massive scores.
+                    </p>
+
+                    <p>
+                        Overall, while batting first led to many successful defenses, chasing teams also had their moments, particularly in dew-affected matches. The toss thus remained a strategic decision, influenced by pitch conditions, weather, and team strengths throughout the tournament.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Highest Score by Team in a Match</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Highest Score by team in a Match.html" width="75%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="fade-up">
+                    <p>
+                        In the 2023 Cricket World Cup, the highest team score in a single match was achieved by South Africa, who posted 428/5 against Sri Lanka at the Arun Jaitley Stadium in Delhi. This match also set a new record for the highest match aggregate in World Cup history, with both teams combining for 754 runs.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Most 4s in a Match</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Most 4s.html" width="100%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="fade-up">
+                    <p>
+                        In the 2023 Cricket World Cup, Virat Kohli led the tournament in boundaries, smashing 68 fours, followed closely by Rohit Sharma with 66 fours. Quinton de Kock (57), Rachin Ravindra (55), and Devon Conway (54) also showcased exceptional stroke play, consistently finding gaps and dominating bowlers.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Most 6s in a Match</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Most 6s.html" width="100%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="fade-up">
+                    <p>
+                        In the 2023 Cricket World Cup, Rohit Sharma led all players with 31 sixes in 11 innings. He was followed by Shreyas Iyer and David Warner, each hitting 24 sixes, and Glenn Maxwell and Daryl Mitchell, who both recorded 22 sixes. These power hitters significantly contributed to their teams' offensive strengths throughout the tournament.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-5 justify-content-center text-align: justify-content-center" data-aos="fade-up">
+                <div class="col-md-12">
+                    <h2>Team Performances </h2>
+                </div>
+            </div>
+            
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Team India</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Team India.html" width="80%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="zoom-in">
+                    <p>
+                        India had a dominant campaign in the 2023 Cricket World Cup, finishing the group stage undefeated with 9 wins in 9 matches. Led by Rohit Sharma, the team showcased exceptional performances in both batting and bowling. Virat Kohli was the tournament’s highest run-scorer, while Jasprit Bumrah, Mohammed Shami, and Kuldeep Yadav led a formidable bowling attack.
+                    </p>
+
+                    <p>
+                        Despite their flawless run up to the final, India fell short against Australia, losing the final in Ahmedabad. However, their overall dominance, aggressive approach, and all-round performances made them one of the strongest teams in the tournament.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Team Australia</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Team Australia.html" width="80%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="zoom-in">
+                    <p>
+                        Australia had a remarkable campaign, clinching their sixth World Cup title after defeating India in the final. Despite a shaky start with two early losses, they bounced back strongly, winning nine consecutive matches, including the knockout stages.
+                    </p>
+
+                    <p>
+                        In the final, Travis Head’s match-winning century (137 off 120 balls) and disciplined bowling helped them chase down India’s total comfortably, securing yet another World Cup triumph and reinforcing their legacy as one of the greatest cricketing nations.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Team South Africa</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Team South Africa.html" width="80%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="zoom-in">
+                    <p>
+                        South Africa had a strong campaign, finishing the group stage second with 7 wins and 2 losses. Known for their aggressive batting, they posted some of the highest scores in the tournament, including a record 428/5 against Sri Lanka. Quinton de Kock was their standout performer, scoring four centuries, while Rassie van der Dussen, Aiden Markram, and Heinrich Klaasen also played crucial roles.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Team New Zealand</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Team New Zealand.html" width="80%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="zoom-in">
+                    <p>
+                        New Zealand had a solid campaign, finishing fourth in the group stage with 5 wins and 4 losses. They started strongly with four consecutive wins, including a dominant victory over England in the tournament opener. Rachin Ravindra emerged as a breakout star, scoring multiple match-winning knocks, while Devon Conway, Daryl Mitchell, and Kane Williamson provided stability in the batting lineup.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Team Pakistan</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Team Pakistan.html" width="80%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="zoom-in">
+                    <p>
+                        Pakistan had an inconsistent campaign, finishing fifth in the group stage with 4 wins and 5 losses, narrowly missing out on a semi-final spot. They started strongly with wins over the Netherlands and Sri Lanka, including a record successful chase of 345 runs. However, their campaign took a downturn with four consecutive losses, including defeats to India, Australia, and Afghanistan.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Team England</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Team England.html" width="80%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="zoom-in">
+                    <p>
+                        England, the defending champions, had a disappointing campaign, finishing seventh in the group stage with 3 wins and 6 losses. Their tournament started with a heavy defeat to New Zealand, setting the tone for an inconsistent run. Jos Buttler’s captaincy, batting failures, and ineffective bowling led to shocking defeats against Afghanistan and Sri Lanka, putting them out of semi-final contention early.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Team Afghanistan</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Team Afghanistan.html" width="80%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="zoom-in">
+                    <p>
+                        Afghanistan had a historic campaign, finishing sixth in the group stage with 4 wins and 5 losses, their best-ever performance in a World Cup. They stunned the cricketing world with upsets over defending champions England, former winners Pakistan, and Sri Lanka, showcasing their rapid improvement.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Team Bangladesh</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Team Bangladesh.html" width="80%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="zoom-in">
+                    <p>
+                        Bangladesh had a disappointing campaign, finishing eighth in the group stage with 2 wins and 7 losses. They started with a comfortable win against Afghanistan but suffered six consecutive defeats, including heavy losses to India, England, and South Africa. Their batting lineup, led by Najmul Hossain Shanto and Mahmudullah, struggled for consistency, while Shakib Al Hasan had an underwhelming tournament both as captain and all-rounder.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Team Sri Lanka</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Team Sri Lanka.html" width="80%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="zoom-in">
+                    <p>
+                        Sri Lanka had a disappointing campaign, finishing ninth in the group stage with 3 wins and 6 losses. Their tournament started poorly with three consecutive defeats, including conceding a record 428/5 against South Africa. While they bounced back with wins over the Netherlands, England, and Bangladesh, they failed to maintain consistency.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mb-7 justify-content-center text-center" data-aos="fade-up">
+                <div class="col-md-12 text-align: justify-content-center" data-aos="fade-up">
+                    <h2>Team Netherlands</h2>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div style="width: 150px; height: 150px; overflow: hidden;"></div>
+                    <iframe src="static/Visualisation/Team Netherlands.html" width="80%" height="450"></iframe>
+                </div>
+
+                <div class="col-md-12 mt-4 text-start" data-aos="zoom-in">
+                    <p>
+                        The Netherlands had a spirited campaign, finishing last (10th) in the group stage with 1 win and 8 losses, but they made a significant impact with their historic upset victory over South Africa. That win showcased their ability to challenge top teams, with Scott Edwards, Bas de Leede, and Logan van Beek playing key roles.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center py-3 bg-light">
+        <p>&copy; 2024 Cricket Analytics. All Rights Reserved to Vaibhav Singh Bains.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Animation duration in milliseconds
+            offset: 120,   // Offset from the original trigger point
+            once: true     // Animation only happens once while scrolling
+        });
+    </script>
+</body>
+</html>
