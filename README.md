@@ -1,58 +1,86 @@
-# Data-Analysis-CWC-23
- 
-Cricket World Cup 2023 Analysis Project
+🏏 CWC 2023 Data Analysis 
 
-This project involved a comprehensive analysis of the 2023 Cricket World Cup, focusing on evaluating team performances, player contributions, match outcomes, and key trends using a data-driven approach.
+This project presents a data analysis and visualization of the Cricket World Cup (CWC) 2023, using Python in a Jupyter Notebook. It explores performance insights, patterns, and comparisons between teams and players based on actual match data.
 
-Objective:
-To gain actionable insights into the tournament by analyzing match data.
+📌 Objectives
 
-To identify patterns in team strategies, batting and bowling performances, and toss decisions.
+Perform exploratory data analysis (EDA) on the CWC 2023 dataset.
+Use visualizations to uncover meaningful insights about:
+Team performance
+Player statistics
+Match outcomes
+Make the analysis interactive and visually engaging using plotting libraries.
+Present the data in a way that is understandable even for non-technical cricket fans.
 
-To visualize and present meaningful statistics for better understanding and decision-making.
 
-Key Components:
-Data Collection:
+| Component                | Description                         |
+| ------------------------ | ----------------------------------- |
+| **Python**               | Main language for analysis          |
+| **Jupyter Notebook**     | Interactive development environment |
+| **Pandas**               | For data manipulation and analysis  |
+| **Matplotlib / Seaborn** | For creating static visualizations  |
+| **Plotly (optional)**    | For interactive visualizations      |
+| **NumPy**                | For numerical calculations          |
 
-Collected match data from reliable sports websites using web scraping tools like BeautifulSoup and Selenium.
+📁 Dataset
 
-Extracted detailed information including team scores, player performances, boundaries, sixes, extras, and bowling statistics.
+The dataset used in this project contains details about:
+Matches played in the 2023 Cricket World Cup
+Team scores, wins/losses
+Player performances
+Match venues and dates
 
-Stored the data in MySQL for further analysis.
+📊 What’s Analyzed?
 
-Data Cleaning and Processing:
+✅ Team Analysis
 
-Cleaned and transformed the raw data using Python libraries such as Pandas and NumPy.
+Number of matches played, won, lost
+Win percentages
+Points and standings
 
-Ensured data accuracy by removing duplicates and handling missing values.
+✅ Batting Performance
 
-Data Analysis and Visualization:
+Top run scorers
+Strike rates
+Average runs per player
+Comparison between player performances
 
-Performed exploratory data analysis (EDA) to identify key patterns using Matplotlib and Seaborn.
+✅ Bowling Performance
 
-Analyzed team win-loss ratios, batting first vs. fielding first decisions, and individual player performances.
+Wickets taken by top bowlers
+Economy rates
+Match-wise bowling stats
 
-Visualized trends using Tableau and Power BI for clear and interactive representation.
+✅ Match Outcomes
 
-Statistical Insights:
+Toss vs win correlation
+Match results by venue
+Margin of victory
 
-Evaluated the impact of toss decisions on match outcomes.
+✅ Visual Insights
 
-Assessed the contribution of extras and their influence on results.
+Bar plots for team points
+Pie charts for win/loss distribution
+Line graphs for match progression
+Heatmaps for performance comparisons
 
-Analyzed the effectiveness of different bowling strategies and their impact in various conditions.
+🌐 Web Integration (Optional)
 
-Reporting and Presentation:
+You can optionally extend this notebook as a Flask-based web application:
+Host visualizations on a webpage
+Display interactive filters (e.g., by team, match, venue)
+Use HTML and CSS for designing the UI
 
-Created detailed reports and dashboards highlighting crucial findings.
+📌 Outcomes
 
-Presented insights on team strengths, weaknesses, and opportunities for future improvement.
+By the end of this project, you'll be able to:
+Understand team and player performance across the tournament
+Create meaningful visual stories with sports data
+Practice real-world data analysis with Python
 
-Outcome:
-Developed a data-backed understanding of the 2023 Cricket World Cup.
+✅ Conclusion
 
-Provided actionable insights into match-winning strategies and performance trends.
-
-Delivered visually compelling reports for effective storytelling using statistical evidence.
-
-This project demonstrated strong analytical, technical, and visualization skills, contributing valuable insights for cricket analysts, enthusiasts, and professionals in the sports industry.
+This Cricket World Cup 2023 data analysis project is ideal for:
+Sports data enthusiasts
+Python beginners looking to build real-world projects
+Students practicing data science and visualization
