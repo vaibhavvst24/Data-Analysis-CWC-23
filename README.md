@@ -1,4 +1,4 @@
-🏏 CWC 2023 Data Analysis 
+🏏 CWC 2023 Data Analysis
 
 This project presents a data analysis and visualization of the Cricket World Cup (CWC) 2023, using Python in a Jupyter Notebook. It explores performance insights, patterns, and comparisons between teams and players based on actual match data.
 
