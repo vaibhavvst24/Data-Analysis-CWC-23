@@ -64,12 +64,9 @@ Pie charts for win/loss distribution
 Line graphs for match progression
 Heatmaps for performance comparisons
 
-## 🌐 Web Integration (Optional)
+## 🌐 Web Integration Flask
 
-You can optionally extend this notebook as a Flask-based web application:
-Host visualizations on a webpage
-Display interactive filters (e.g., by team, match, venue)
-Use HTML and CSS for designing the UI
+![Data-Analysis-CWC-23](images/cwc.png)
 
 ## 📌 Outcomes
 
